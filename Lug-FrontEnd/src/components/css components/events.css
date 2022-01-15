@@ -1,0 +1,185 @@
+.events {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+.title-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #f00, #f00, #0f0, #0ff, #ff0, #0ff);
+  mix-blend-mode: color;
+  pointer-events: none;
+}
+.title-section {
+  height: 100vh;
+  background-color: #000;
+}
+video {
+  object-fit: cover;
+  position: absolute;
+  left: 300px;
+}
+.title-h1 {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  color: rgb(155, 20, 20);
+  font-size: 5em;
+  letter-spacing: 0.3em;
+}
+
+.title-span {
+  margin: 130px auto;
+  opacity: 0;
+  display: inline-block;
+  animation: smoke 1s linear forwards;
+}
+
+@keyframes smoke {
+  0% {
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0);
+    text-shadow: 0 0 10px #ffc6d0, 0 0 20px #b36969, 0 0 40px #22659b,
+      0 0 80px #ffffffa1, 0 0 160px #ffbb00, 0 0 400px #f4030377;
+  }
+}
+.title-span:nth-child(1) {
+  animation-delay: 1s;
+}
+
+.title-span:nth-child(2) {
+  animation-delay: 2s;
+}
+.title-span:nth-child(3) {
+  animation-delay: 2.5s;
+}
+.title-span:nth-child(4) {
+  animation-delay: 3s;
+}
+.title-span:nth-child(5) {
+  animation-delay: 3.5s;
+}
+.title-span:nth-child(6) {
+  animation-delay: 4s;
+}
+.title-span:nth-child(7) {
+  animation-delay: 4.5s;
+}
+/* after smoke effect */
+
+.main-top {
+  background-image: url("../../images/champien.jpg");
+  background-size: cover;
+  height: 450px;
+  z-index: 10;
+  position: relative;
+  top: -350px;
+}
+.main-title {
+  text-align: center;
+  color: rgb(155, 20, 20);
+}
+
+.main-content {
+  min-height: 100vh;
+  background-color: black;
+  position: relative;
+  top: -350px;
+}
+.winter-event {
+  min-height: 100vh;
+  background-color: black;
+}
+.winter-event-title {
+  color: lightgray;
+  text-shadow: 0 0 10px #ffc6d0, 0 0 20px #b36969, 0 0 40px #22659b;
+}
+.winter-event-row {
+  max-width: 96%;
+}
+.winter-event-left {
+  background-image: url("../../images/godofwar.jpg");
+  background-size: cover;
+  height: 25em;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #ffc6d0, 0 0 20px #b36969;
+}
+
+.winter-event-down {
+  margin-bottom: 100px;
+}
+
+.winter-event-down-h1 {
+  margin: 50px auto;
+}
+
+.summer-event-title {
+  margin-top: 100px;
+  color: red;
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 40px #ff0000;
+}
+
+.summer-event-right {
+  background-image: url("https://d.newsweek.com/en/full/1631471/35th-anniversary-super-mario-bros-2020.jpg?w=1600&h=1200&q=88&f=a2b971918bf2e156b712ae3ce01284c3");
+  background-size: cover;
+  height: 25em;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 40px #ff0000,
+    0 0 80px #ff0000, 0 0 160px #ff0000;
+}
+
+.summer-event-title {
+  position: relative;
+  top: -300px;
+}
+.summer-event-down {
+  position: relative;
+  top: -200px;
+}
+.summer-event-down-h1 {
+  margin: 50px auto;
+  color: red;
+}
+.summer-event-li {
+  color: red;
+}
+.summer-event-btn {
+  border: 2px solid red;
+  background-color: white;
+  color: #000;
+  border-radius: 10px;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.summer-event-btn:hover {
+  border-color: #f44336;
+  color: white;
+  background-color: red;
+}
+
+.summer-event-row {
+  position: relative;
+  top: -200px;
+}
+.event-bottom-card {
+  text-shadow: 0 0 10px #e0d7d7, 0 0 20px #e0d7d7, 0 0 40px #ff0000;
+}
+
+/*              */
+@media screen and (max-width: 992px) {
+  video {
+    left: -100px;
+  }
+}

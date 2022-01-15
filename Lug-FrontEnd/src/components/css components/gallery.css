@@ -1,0 +1,13 @@
+.gallery {
+  width: 10em;
+  height: 12em;
+  border-radius: 15px;
+}
+.gallery:hover {
+  box-shadow: -2px -2px 5px 2px rgba(255, 255, 255),
+    2px 2px 5px 2px rgba(255, 255, 255);
+}
+.wrapDiv {
+  min-height: 100vh;
+  margin-bottom: 150px;
+}

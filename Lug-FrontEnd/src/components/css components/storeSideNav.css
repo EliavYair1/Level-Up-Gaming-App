@@ -1,0 +1,46 @@
+.store-container {
+  width: 14.5em;
+  min-height: 100vh;
+}
+
+.sidebar-logo {
+  width: 7em;
+  margin-left: 18px;
+}
+.adds-store {
+  overflow: hidden;
+  position: relative;
+  top: 1em;
+  left: 3.2em;
+  width: 6em;
+  height: 130em;
+  background-color: white;
+  color: red;
+}
+
+.cnnContents {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 30px;
+  transform: rotate(90deg);
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.marqueeStyle {
+  display: inline-block;
+  animation: scrolling 30s linear forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(200%);
+    -webkit-transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(-300%);
+    -webkit-transform: translateX(-300%);
+  }
+}

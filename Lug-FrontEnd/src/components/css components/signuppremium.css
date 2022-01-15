@@ -1,0 +1,19 @@
+.signupPremium-container {
+  background-image: url("/src/images/3D-luxury--black--mockup.png");
+  background-size: cover;
+  background-position-x: 0.8rem;
+  background-position-y: center;
+  min-height: 87vh;
+  box-shadow: inset 0px 10px 10px 1px,
+    inset 10px 2px 2px 1px rgba(255, 36, 36, 0.514),
+    inset 0px -10px 10px 1px rgba(255, 36, 36, 0.514),
+    inset -10px 10px 10px 1px rgba(255, 36, 36, 0.514);
+}
+@media only screen and (max-width: 1024px) {
+  .signupPremium-container {
+    min-height: 93vh;
+    background-size: cover;
+    background-position-x: -23rem;
+    background-position-y: center;
+  }
+}

@@ -1,0 +1,19 @@
+.signup-container {
+  background-image: url("https://wallpaperaccess.com/full/2141425.jpg");
+  background-size: cover;
+
+  min-height: 100vh;
+}
+/* .background-body .signUpHeader {
+  margin-top: 50px;
+}
+.formBody {
+  color: red;
+  width: 50%;
+  height: 30vh;
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 15%;
+  border-radius: 10px;
+}
+ */

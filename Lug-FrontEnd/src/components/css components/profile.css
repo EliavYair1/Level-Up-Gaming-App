@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.profile-container {
+  background-image: url("/src/images/background.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+.inner-container {
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: rgb(158, 158, 158);
+  width: 30em;
+}
+.inner-container:hover {
+  box-shadow: 0 16px 20px 5px rgb(226, 8, 8);
+}
+
+.card-container {
+  width: 12.2em;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.profile-img {
+  width: 10em;
+  height: 10em;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 16px 20px 5px rgb(226, 8, 8);
+}

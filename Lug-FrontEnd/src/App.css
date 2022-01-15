@@ -1,0 +1,104 @@
+.home-container {
+  background-image: url("./images/background.jpg");
+  min-height: 100vh;
+  background-repeat: round;
+}
+.container .row .HLink {
+  margin: 45px;
+}
+/* .myNavbar {
+  background-image: url("./images/background.jpg");
+  background-repeat: round;
+}
+
+.miniNav {
+  margin: 3px;
+}
+.toflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.colorLink {
+  color: #fff;
+  font-weight: bold;
+}
+.boxShadow {
+  color: rgb(200, 9, 9);
+  box-shadow: 0px 0px 30px 10px, 10px 10px 20px rgba(255, 36, 36, 0.514),
+    inset 0px 10px 20px 1px rgba(255, 236, 236, 0.349);
+} */
+/* .container-logo {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  place-content: center;
+  overflow: hidden;
+  background: rgb(153, 148, 148);
+  border-radius: 30px;
+} */
+/* 
+.item {
+  width: 50%;
+  overflow: visible;
+  stroke: rgb(255, 251, 38);
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+} */
+/* .logo-collapse {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  place-content: center;
+  overflow: hidden;
+  background: rgb(153, 148, 148);
+  border-radius: 30px;
+}
+.item-collapse {
+  width: 50%;
+  overflow: visible;
+  stroke: rgb(255, 251, 38);
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Patua+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Patua One", cursive;
+}
+.googleFontHeader {
+  font-family: "AbrilFatface", cursive;
+}
+.googleFontSub {
+  font-family: "Patua One", cursive;
+}
+@media only screen and (max-width: 770px) {
+  .levelUpLogo {
+    display: none;
+  }
+}
+@media only screen and (min-width: 770px) {
+  .levelUpLogo-collapse {
+    display: none;
+  }
+  .navbar-nav .nav-item .nav-link .nav-icon {
+    margin-top: 15px;
+  }
+}

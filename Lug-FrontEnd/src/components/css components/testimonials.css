@@ -1,0 +1,153 @@
+/* head,
+body {
+  background-color: lightcyan;
+}
+
+.card-cont {
+  cursor: pointer;
+}
+
+.hd {
+  font-size: 25px;
+  font-weight: 550;
+}
+
+.card-cont.hover,
+.card-cont:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.img {
+  margin-bottom: 35px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+button.focus,
+button:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.ft {
+  margin-top: 25px;
+}
+
+.chk {
+  margin-bottom: 5px;
+}
+
+.rck {
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+*/
+/* .carousel-inner .carousel-item .carousel-caption {
+  position: relative;
+  top
+} */
+
+.testimonial-section {
+  background-color: #d6cccc2f;
+  padding: 80px 0;
+  margin-top: 100px;
+  min-height: 80vh;
+}
+.testi-img .img-box {
+  max-width: 360px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+.testi-img .circle {
+  height: 360px;
+  width: 360px;
+  background-color: #eb1713ab;
+  position: absolute;
+  border-radius: 50%;
+  left: 0;
+  bottom: 0;
+  transition: all 0.5s ease;
+}
+.testi-img .img-box-inner {
+  position: relative;
+  border-radius: 0 0 180px 180px;
+  overflow: hidden;
+}
+.testi-img .img-box-inner img {
+  max-width: 310px;
+}
+.testimonial-section .carousel-inner {
+  margin-bottom: 20px;
+}
+.testimonial-section .carousel-control-prev {
+  margin-right: 10px;
+}
+.testimonial-section .carousel-control-next,
+.testimonial-section .carousel-control-prev {
+  position: relative;
+  height: 35px;
+  width: 35px;
+  background-color: #eb1713ab;
+  display: inline-flex;
+  border-radius: 50%;
+  z-index: 1;
+}
+.testi-header {
+  color: #eb1713ab;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  font-style: italic;
+  font-weight: bold;
+}
+.paragraph {
+  font-style: italic;
+}
+
+.testi-item h3,
+.testi-item p {
+  font-size: 18px;
+}
+.testi-item h3 {
+  text-transform: capitalize;
+}
+.btns {
+  margin-top: 22%;
+}
+
+@media (max-width: 991px) {
+  .testi-img .img-box {
+    max-width: 300px;
+  }
+  .testi-img .circle {
+    height: 300px;
+    width: 300px;
+  }
+  .testi-img .img-box-inner {
+    border-radius: 0 0 150px 150px;
+  }
+  .testi-img .img-box-inner img {
+    max-width: 230px;
+  }
+  .btns {
+    margin-top: 65%;
+  }
+}
+@media (max-width: 767px) {
+  .testi-img {
+    margin-bottom: 25px;
+  }
+  .testi-header {
+    position: relative;
+    top: 5px;
+    font-style: italic;
+  }
+  .btns {
+    margin-top: 35%;
+  }
+}

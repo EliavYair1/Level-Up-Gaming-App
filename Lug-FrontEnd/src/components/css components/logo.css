@@ -1,0 +1,81 @@
+.levelUpLogo {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 90px;
+  display: flex;
+  place-content: center;
+  overflow: hidden;
+  filter: brightness(1.9);
+
+  /*  background-color: #222020; */
+  border-radius: 35px;
+  position: relative;
+  top: 6px;
+  z-index: 10;
+}
+/* svg[Attributes Style] {
+    width: 3501pt;
+    height: 3564pt;
+} */
+/* background-color: rgb(33, 37, 41); */
+
+.levelUpItem {
+  width: 50%;
+  width: 155px;
+  height: 155px;
+  overflow: visible;
+  stroke: rgb(243, 14, 14);
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+.levelUpLogo-collapse {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 30px;
+  display: flex;
+  place-content: center;
+  overflow: hidden;
+  position: relative;
+  bottom: 30px;
+  right: 20px;
+  background-color: #fafaf8;
+  border-radius: 35px;
+  z-index: 10;
+}
+
+.levelUpItem-collapse {
+  width: 50%;
+  width: 60px;
+  height: 60px;
+  overflow: visible;
+  stroke: rgb(243, 14, 14);
+  /* stroke: rgb(255, 251, 38); */
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+@media only screen and (max-width: 770px) {
+  .levelUpLogo {
+    display: none;
+  }
+}
+@media only screen and (min-width: 770px) {
+  .levelUpLogo-collapse {
+    display: none;
+  }
+  .navbar-nav .nav-item .nav-link .nav-icon {
+    margin-top: 15px;
+  }
+}

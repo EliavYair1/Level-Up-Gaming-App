@@ -1,0 +1,47 @@
+.myNavbar {
+  background-image: url("/src/images/background.jpg");
+  background-repeat: round;
+}
+
+.miniNav {
+  margin: 3px;
+}
+.toflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.colorLink {
+  color: #fff;
+}
+.login-item {
+  margin-top: 13px;
+}
+.boxShadow {
+  color: rgb(200, 9, 9);
+  box-shadow: 0px 0px 30px 10px, 10px 10px 20px rgba(255, 36, 36, 0.514),
+    inset 0px 10px 20px 1px rgba(255, 236, 236, 0.349);
+  z-index: 10;
+}
+.cartCounter {
+  color: white;
+  background-color: red;
+}
+
+@media only screen and (max-width: 770px) {
+  .levelUpLogo {
+    display: none;
+  }
+  .col-nav {
+    border-bottom: 1px solid orangered;
+    border-top: 1px solid orangered;
+  }
+}
+@media only screen and (min-width: 770px) {
+  .levelUpLogo-collapse {
+    display: none;
+  }
+  .navbar-nav .nav-item .nav-link .nav-icon {
+    margin-top: 15px;
+  }
+}

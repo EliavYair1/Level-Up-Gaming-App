@@ -1,0 +1,12 @@
+@local = "localhost:4000"
+
+POST {{local}}/levelup/users 
+Content-Type: : application/json
+
+{
+    "firstName":"sagi",
+    "lastName":"reuven",
+    "email":"sagi@gmail.com",
+    "password":"123456",
+    "biz":"false"
+}

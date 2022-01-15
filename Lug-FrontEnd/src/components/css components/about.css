@@ -1,0 +1,49 @@
+.aboutContainer {
+  background-image: url("../../images/background.jpg");
+  background-size: cover;
+  min-height: 90vh;
+}
+.about-title {
+  color: lightgray;
+  text-shadow: 0 0 10px #ffc6d0, 0 0 20px #b36969, 0 0 40px #22659b;
+}
+.aboutUsImage {
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  transform: scale(1);
+}
+.userContainer {
+  width: 75%;
+  box-shadow: 0 0 10px #ffc6d0, 0 0 20px #b36969, 0 0 40px #22659b;
+  border-radius: 20px;
+}
+
+.vision {
+  background-image: url("../../images/screen-small.png");
+  background-size: cover;
+  height: 50em;
+}
+.vision-logo {
+  width: 10em;
+  height: 10em;
+}
+
+@media screen and (max-width: 992px) {
+  .aboutUsImage {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    transform: scale(1);
+  }
+
+  .vision {
+    height: 60em;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .vision {
+    height: 70em;
+  }
+}
