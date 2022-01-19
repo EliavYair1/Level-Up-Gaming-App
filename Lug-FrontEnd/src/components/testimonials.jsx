@@ -1,13 +1,13 @@
-import React from "react";
-import "./css components/testimonials.css";
-import firstImage from "../images/testimonial/1.png";
-import secondImage from "../images/testimonial/2.png";
-import thirdImage from "../images/testimonial/3.png";
+import React from 'react';
+import './css components/testimonials.css';
+import firstImage from '../images/testimonial/1.png';
+import secondImage from '../images/testimonial/2.png';
+import thirdImage from '../images/testimonial/3.png';
 
 const Testimonials = () => {
   return (
     <>
-      {" "}
+      {' '}
       <section className="testimonial-section d-flex align-items-center">
         <div className="container">
           <div className="row align-items-center" data-bs-interval={3000}>
@@ -84,7 +84,7 @@ const Testimonials = () => {
                       amet ipsa debitis fugiat commodi nemo suscipit ad!"
                     </p>
                     <h3>
-                      huge bulbul - <span>Eliav Yair</span>
+                      <span>Eliav Yair</span>
                     </h3>
                   </div>
                   <div className="btns">

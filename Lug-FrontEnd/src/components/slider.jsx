@@ -1,9 +1,9 @@
 // import playerImage from "../images/player.jpg";
-import godOfWarImage from "../images/godofwar.jpg";
+import godOfWarImage from '../images/godofwar.jpg';
 // import codImage from "../images/cod.jpg";
-import "./css components/slider.css";
-import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import './css components/slider.css';
+import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 const Slider = () => {
   return (
     <>
@@ -39,13 +39,13 @@ const Slider = () => {
               src="https://i.pinimg.com/originals/e0/5b/3e/e05b3eebb928fc0925d77a43f341840f.jpg
               "
               className="d-block "
-              style={{ height: "70vh", width: "100vw" }}
+              style={{ height: '70vh', width: '100vw' }}
               alt="..."
             />
             <div className="carousel-caption mb-5">
               <h3 className="text-white text-capitalize">join us</h3>
               <p>make sure you get the latest level-up's news!!</p>
-              <Link to="/">
+              <Link to="/signup">
                 <button className="btn btn-secondary text-dark fw-bold w-20">
                   Sign Up
                 </button>
@@ -56,13 +56,13 @@ const Slider = () => {
             <img
               src={godOfWarImage}
               className="d-block "
-              style={{ height: "70vh", width: "100vw" }}
+              style={{ height: '70vh', width: '100vw' }}
               alt="..."
             />
             <div className="carousel-caption mb-5">
               <h3 className="text-white text-capitalize">events</h3>
               <p>check out our world wide gaming events</p>
-              <Link to="/">
+              <Link to="/events">
                 <button className="btn btn-secondary text-dark fw-bold w-20">
                   To Gallery
                 </button>
@@ -74,7 +74,7 @@ const Slider = () => {
               src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_Battlefield2042GoldEdition_DICE_Editions_S1_2560x1440-98e3508c62e4d57c1ab8c109b49016a2
               "
               className="d-block "
-              style={{ height: "70vh", width: "100vw" }}
+              style={{ height: '70vh', width: '100vw' }}
               alt="..."
             />
             <div className="carousel-caption mb-5">
@@ -82,7 +82,7 @@ const Slider = () => {
                 games & accessories
               </h3>
               <p>check out our latest games and gaming features</p>
-              <Link to="/">
+              <Link to="/store">
                 <button className="btn btn-secondary text-dark fw-bold w-20">
                   To Store
                 </button>
