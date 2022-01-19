@@ -27,6 +27,11 @@ I wanted to give the full website experience and I know this is a bad practice u
 
 • Persistent cart using local storage ( saves users cart data in the local storage )
 
+# WebSite Link
+we have upload the project using Heroku & netlify
+
+https://levelupgaming.netlify.app/
+
 # Credits
 
 The Credits go by my wonderfull development team:
