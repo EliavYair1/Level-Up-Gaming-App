@@ -1,6 +1,4 @@
-// import playerImage from "../images/player.jpg";
 import godOfWarImage from '../images/godofwar.jpg';
-// import codImage from "../images/cod.jpg";
 import './css components/slider.css';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';

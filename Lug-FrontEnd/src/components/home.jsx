@@ -1,22 +1,21 @@
-import { Link } from "react-router-dom";
-// import PageHeader from "./common/pageHeader";
-import Slider from "./slider";
-import { SiNintendoswitch } from "react-icons/si";
-import { FaPlaystation } from "react-icons/fa";
-import { RiComputerFill } from "react-icons/ri";
-import { FaXbox } from "react-icons/fa";
-import { motion } from "framer-motion";
-import Footer from "./footer";
-import "./css components/home.css";
-import Gallery from "./gallery";
-import React, { useEffect } from "react";
-import { useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import HotDeals from "./hotDeals";
-import MeetTheTeam from "./MeetTheTeam";
-import userService from "../services/userService";
-import team from "../services/theTeam";
-import Testimonials from "./testimonials";
+import { Link } from 'react-router-dom';
+import Slider from './slider';
+import { SiNintendoswitch } from 'react-icons/si';
+import { FaPlaystation } from 'react-icons/fa';
+import { RiComputerFill } from 'react-icons/ri';
+import { FaXbox } from 'react-icons/fa';
+import Footer from './footer';
+import './css components/home.css';
+import Gallery from './gallery';
+import React, { useEffect } from 'react';
+import { motion } from 'framer-motion';
+import { useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+import HotDeals from './hotDeals';
+import MeetTheTeam from './MeetTheTeam';
+import userService from '../services/userService';
+import team from '../services/theTeam';
+import Testimonials from './testimonials';
 
 const Home = () => {
   const theTeam = team();
@@ -24,23 +23,23 @@ const Home = () => {
     threshold: 0.2,
   });
   const fetchUser = userService.isUserLogged();
-  console.log(fetchUser, "coming from fetch");
+  console.log(fetchUser, 'coming from fetch');
   const animation = useAnimation();
   useEffect(() => {
-    console.log("use effect hook,inView=", inView);
+    console.log('use effect hook,inView=', inView);
 
     if (inView) {
       animation.start({
         x: 0,
         transition: {
-          type: "spring",
+          type: 'spring',
           duration: 0.5,
           bounce: 0.2,
         },
       });
     }
     if (!inView) {
-      animation.start({ x: "-100vw" });
+      animation.start({ x: '-100vw' });
     }
   }, [inView, animation]);
 
@@ -69,7 +68,7 @@ const Home = () => {
                   animate={animation}
                   transition={{
                     duration: 0.7,
-                    type: "spring",
+                    type: 'spring',
                     stiffness: 120,
                   }}
                   className="item-one btn btn-primary w-15 col-lg-2 col-md-4 col-sm-12 col-9 mb-3 p-2"
@@ -82,7 +81,7 @@ const Home = () => {
                   animate={animation}
                   transition={{
                     duration: 0.7,
-                    type: "spring",
+                    type: 'spring',
                     stiffness: 120,
                   }}
                   className="item-two btn btn-danger w-15 col-lg-2 col-md-4 col-sm-12 col-9 mb-3 p-2"
@@ -95,7 +94,7 @@ const Home = () => {
                   animate={animation}
                   transition={{
                     duration: 0.7,
-                    type: "spring",
+                    type: 'spring',
                     stiffness: 120,
                   }}
                   className="item-three btn btn-success w-15 col-lg-2 col-md-4 col-sm-12 col-9 mb-3 p-2"
@@ -108,7 +107,7 @@ const Home = () => {
                   animate={animation}
                   transition={{
                     duration: 0.7,
-                    type: "spring",
+                    type: 'spring',
                     stiffness: 120,
                   }}
                   className="item-four btn btn-dark w-15 col-lg-2 col-md-4 col-sm-12 col-9 mb-3 p-2"

@@ -1,7 +1,7 @@
-import React from "react";
-import "../components/css components/about.css";
-import Footer from "./footer";
-import team from "../services/theTeam";
+import React from 'react';
+import '../components/css components/about.css';
+import Footer from './footer';
+import team from '../services/theTeam';
 const About = () => {
   const teamMate = team();
   return (
@@ -75,7 +75,7 @@ const About = () => {
                 <div className="col-12">
                   <div className="m-5  p-5 text-center ">
                     <h2 className="mt-5">Level-Up Gaming Vision</h2>
-                    <h3 className="about-vision ">
+                    <h3 className="about-vision">
                       Were In A Constant Persuit To Provide A Different Online
                       Gaming Experience...
                     </h3>
@@ -89,7 +89,7 @@ const About = () => {
                       </li>
                       <li>
                         <p>
-                          {" "}
+                          {' '}
                           Deliver An Additional Value With Events For Our
                           Premium Customers
                         </p>
